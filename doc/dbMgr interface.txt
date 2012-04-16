@@ -1,0 +1,33 @@
+dbMgr:
+  property:
+     entityDefs
+     storage
+     loginMapping
+
+  method:
+     logOn
+     logOff
+     loadEntity
+     writeEntity
+     deleteEntity
+     executeRawCommand
+     putIDs
+     getIDs
+
+     getEntity
+     putEntity
+     delEntity
+
+
+storage:
+  method
+     setloginMapping
+     getEntity
+     putEntity
+     delEntity
+     executeRawCommand
+     putIDs
+     getIDs
+
+NoSql : storage
+MySql : storage

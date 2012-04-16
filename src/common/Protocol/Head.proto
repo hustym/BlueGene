@@ -1,0 +1,7 @@
+package Head;
+
+message Message
+{
+    required int32 id=1;  // message id
+    required string msg=2;   // message content
+}

@@ -1,0 +1,21 @@
+package Scene;
+
+message Position
+{
+    required int32 id=1;  // entity id
+    required int32 x=2;   // entity x position
+    required int32 y=3;   // entity y position
+}
+
+
+message EnterWorld
+{
+    required int32 id=1;  // entity id
+    required int32 x=2;   // entity x position
+    required int32 y=3;   // entity y position
+}
+
+message LeaveWorld
+{
+    required int32 id=1;  // entity id
+}
