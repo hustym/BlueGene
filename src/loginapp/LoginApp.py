@@ -8,7 +8,7 @@ from functools import partial
 
 from gevent.server import StreamServer
 from common.GlobalTimer import global_timer
-from common.Log import log, BaseServer
+from common import Log, BaseServer
 from gevent import socket
 
 

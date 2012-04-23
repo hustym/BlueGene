@@ -1,0 +1,32 @@
+<root>
+	<entity>
+		<type>	ClickItem	</type>
+		<position>
+			<x>	11	</x>
+			<y>	47	</y>
+		</position>
+		<properties>
+			<click_id>	3024	</click_id>
+		</properties>
+	</entity>
+	<entity>
+		<type>	ClickItem	</type>
+		<position>
+			<x>	131	</x>
+			<y>	147	</y>
+		</position>
+		<properties>
+			<click_id>	3021	</click_id>
+		</properties>
+	</entity>
+	<entity>
+		<type>	ClickItem	</type>
+		<position>
+			<x>	211	</x>
+			<y>	37	</y>
+		</position>
+		<properties>
+			<click_id>	3022	</click_id>
+		</properties>
+	</entity>
+</root>

@@ -43,7 +43,7 @@ class DbMgrServer(BaseServer.BaseServer):
         global CONFIG_FILE
         # 初始化配置信息
         cfg = ConfigParser.ConfigParser()
-        cfg.read(CONFIG_FILE)
+        cfg.read(DbMgrServer.CONFIG_FILE)
 
         ip = cfg.get('dbmgr', 'ip')
         port = cfg.getint('dbmgr', 'port')

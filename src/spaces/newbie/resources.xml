@@ -1,0 +1,11 @@
+<root>
+	<resource>
+		<image>	compound/item/002_029_waguantan_06.png	</image>
+		<position>
+			<x>	123	</x>
+			<y>	234	</y>
+		</position>
+		<layer>	4	</layer>
+		<depth>	0	</depth>
+	</resource>
+</root>

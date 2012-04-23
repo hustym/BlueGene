@@ -37,6 +37,11 @@ class Space(object):
     CHUNK_HEIGHT = 1024
     CHUNK_WIDTH  = 1024
 
+    SPACE_DIR = 'spaces/'
+
+    def __init__(self, space_name):
+
+
     def __init__(self, x, y):
         self.chunks={}
         for i in xrange(x):
